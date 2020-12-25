@@ -40,7 +40,10 @@
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
+      "path": "node_modules/cz-customizable"
+    },
+    "cz-customizable": {
+      "config": "config/path/to/my/config.js"
     }
   }
 }
